@@ -1,0 +1,22 @@
+<StackLayout>
+  <Button
+    *ngIf="!loginService.loggedIn"
+    text="Login with Facebook"
+    (tap)="onLogin($event)"
+    class="btn btn-primary">
+  </Button>
+  <StackLayout *ngIf="loginService.loggedIn">
+    <GridLayout columns="70,*" rows="50,50" class="p-50">
+      <Label col="0" row="0" text="Email"></Label>
+      <Label col="1" row="0" [text]="loginService.email | async"></Label>
+      <Label col="0" row="1" text="Name"></Label>
+      <Label col="1" row="1" [text]="loginService.name | async"></Label>
+    </GridLayout>
+  </StackLayout>
+  <Button
+    *ngIf="loginService?.loggedIn"
+    text="Logout"
+    (tap)="onLogout($event)"
+    class="btn btn-primary">
+  </Button>
+</StackLayout>
