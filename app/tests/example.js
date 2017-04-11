@@ -1,0 +1,7 @@
+// A sample Jasmine test
+describe("A suite", function () {
+    it("contains spec with an expectation", function () {
+        expect(true).toBe(true);
+    });
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZXhhbXBsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImV4YW1wbGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsd0JBQXdCO0FBQ3hCLFFBQVEsQ0FBQyxTQUFTLEVBQUU7SUFDbEIsRUFBRSxDQUFDLG1DQUFtQyxFQUFFO1FBQ3RDLE1BQU0sQ0FBQyxJQUFJLENBQUMsQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLENBQUM7SUFDMUIsQ0FBQyxDQUFDLENBQUM7QUFDTCxDQUFDLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8vIEEgc2FtcGxlIEphc21pbmUgdGVzdFxuZGVzY3JpYmUoXCJBIHN1aXRlXCIsIGZ1bmN0aW9uKCkge1xuICBpdChcImNvbnRhaW5zIHNwZWMgd2l0aCBhbiBleHBlY3RhdGlvblwiLCBmdW5jdGlvbigpIHtcbiAgICBleHBlY3QodHJ1ZSkudG9CZSh0cnVlKTtcbiAgfSk7XG59KTtcbiJdfQ==

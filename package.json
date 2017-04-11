@@ -19,15 +19,21 @@
     "@angular/platform-browser": "4.0.0",
     "@angular/platform-browser-dynamic": "4.0.0",
     "@angular/router": "4.0.0",
+    "@types/jasmine": "^2.5.47",
     "nativescript-angular": "1.5.1",
     "nativescript-oauth": "^1.4.0",
     "nativescript-theme-core": "~1.0.2",
+    "nativescript-unit-test-runner": "^0.3.4",
     "reflect-metadata": "~0.1.8",
     "rxjs": "~5.2.0",
     "tns-core-modules": "2.5.2",
     "zone.js": "~0.8.2"
   },
   "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-nativescript-launcher": "^0.4.0",
     "nativescript-dev-android-snapshot": "^0.*.*",
     "nativescript-dev-typescript": "~0.3.5",
     "typescript": "~2.1.0"
